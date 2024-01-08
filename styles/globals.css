@@ -1,0 +1,50 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
+
+.hdrxx{
+
+    width: 100vw;
+    background-color:#28328c;
+    min-height: 80px;
+}
+.sidebar{
+
+
+    transition: ease-in-out 0.3s ;
+    width: 300px;
+
+}
+.sidebar div{
+
+
+}
+.sidebar.show{
+    transition: ease-in-out 0.2s ;
+    width: 0px;
+}
+
+.xitem div{
+
+
+   border-radius: 8px;
+    align-items: center;
+    display: flex;
+    padding: 12px;
+    color: #5e5d72;
+    margin: 1px 15px 0px 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+}
+
+.xitem div:hover{
+    background-color: #f0f0f0;
+
+}
+
+.xitem   .act{
+    background-color: #ebf6ff;
+
+    color: #0858f7;
+
+}
